@@ -15,18 +15,19 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #343a40;
+    background-color: #a8a8a8;
 }
 
 .navbar .navbar-brand,
 .navbar .nav-link {
-    color: #ffffff;
+    color: #3d3d3d;
     transition: color 0.3s ease;
+    padding: 0.5rem 0.75rem; /* Adjust padding for smaller buttons */
 }
 
 .navbar .navbar-brand:hover,
 .navbar .nav-link:hover {
-    color: #f8f9fa;
+    color: #9ccdff;
 }
 
 .navbar-toggler {
