@@ -15,19 +15,20 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #a8a8a8;
+    background-color: #343a40;
+    color: #ffffff;
 }
 
 .navbar .navbar-brand,
 .navbar .nav-link {
-    color: #3d3d3d;
+    color: #ffffff;
     transition: color 0.3s ease;
     padding: 0.5rem 0.75rem; /* Adjust padding for smaller buttons */
 }
 
 .navbar .navbar-brand:hover,
 .navbar .nav-link:hover {
-    color: #9ccdff;
+    color: #df9cec;
 }
 
 .navbar-toggler {
@@ -106,13 +107,8 @@ footer {
     text-align: center;
 }
 
-footer a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+footer .hover-link:hover {
+    color: #df9cec;
 }
 
 /* Responsive Design */
