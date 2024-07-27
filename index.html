@@ -53,12 +53,15 @@
             </ul>
         </section>
         <section id="proyectos">
-            <h1>Some Projects</h1>
+            <h1>Previous Projects</h1>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/proyecto1.jpg" alt="Proyecto 1" class="img-fluid">
-                    <h2>Proyecto 1</h2>
-                    <p>Descripción del proyecto 1</p>
+                    <iframe src="https://culd.org/" frameborder="0" width="100%" height="100%"></iframe>
+                    <h2>CulD - The Cult DAO</h2>
+                    <p> Made substantial improvements to key sections of the website using HTML5, optimizing usability and performance.
+                        Supervised the operation and connection of Discord bots to our database in MongoDB.
+                        Led the content update initiative, where attention to detail generated a clearer idea about the project.
+                        Implemented collaborative practices on GitHub, resulting in greater transparency and productivity. </p>
                 </div>
                 <div class="col-md-4">
                     <img src="img/proyecto2.jpg" alt="Proyecto 2" class="img-fluid">
@@ -79,11 +82,33 @@
     </main>
     <footer class="bg-dark text-center text-white">
         <div class="container p-4">
-            <p>© 2024 David Lucio. All rights reserved.</p>
             <a href="https://www.linkedin.com/in/jdavidlucios" target="_blank" class="hover-link">LinkedIn</a>
             <a href="https://www.github.com/jdavidlucios" target="_blank" class="hover-link">Github</a>
+            <p class="small-text">© 2024 David Lucio. All rights reserved.</p>
         </div>
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+        headings.forEach((heading) => {
+            heading.style.color = 'white'; // set initial color to white
+            heading.style.transition = 'color 2s'; // transition color
+
+            heading.addEventListener('DOMContentLoaded', () => {
+                heading.style.color = '#333'; // change color to black on load
+            });
+
+            // Use IntersectionObserver to detect when the heading comes into view
+            const observer = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    heading.style.color = '#333'; // change color to black when in view
+                }
+            }, { threshold: 1.0 });
+
+            observer.observe(heading);
+        });
+    </script>
 </body>
+
 </html>
