@@ -5,32 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work Portfolio - David Lucio</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Work Portfolio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#informacion-personal">About Me</a>
-                        <a class="nav-link" href="#habilidades">Skills</a>
-                        <a class="nav-link" href="#proyectos">Projects</a>
-                        <a class="nav-link" href="form.html">Contact</a>
-                    </div>
-                </div>
+    <section></section>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Work Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-0">
+                    <a class="nav-link active" aria-current="page" href="#informacion-personal">About Me</a>
+                    <a class="nav-link" href="#habilidades">Skills</a>
+                    <a class="nav-link" href="#proyectos">Projects</a>
+                    <a class="nav-link" href="form.html">Contact</a>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <main>
         <section id="informacion-personal">
             <h1>About Me</h1>
@@ -78,10 +75,6 @@
                 </div>
             </div>
         </section>
-        <section id="contacto">
-            <h1 href="form.html" >Contact</h1>
-            <p>Email: juandalucio@gmail.com</p>
-        </section>
     </main>
 
     <footer class="bg-dark text-center text-white">
@@ -90,9 +83,10 @@
             <a href="https://www.github.com/jdavidlucios" target="_blank" class="hover-link">Github</a>
             <p class="small-text">© 2024 David Lucio. All rights reserved.</p>
         </div>
-
     </footer>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
         const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
 

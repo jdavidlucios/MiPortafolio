@@ -27,7 +27,7 @@ body {
 }
 
 .navbar .navbar-brand:hover,
-.navbar .nav-link:hover {
+.navbar .navbar-collapse .nav-link:hover {
     color: #df9cec;
 }
 
