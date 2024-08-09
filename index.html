@@ -51,28 +51,51 @@
         </section>
         <section id="proyectos">
             <h1>Previous Projects</h1>
-            <div class="row">
-                <div class="col-md-4">
-                    <iframe src="https://culd.org/" frameborder="0" width="100%" height="100%"></iframe>
-                    <h2>CulD - The Cult DAO</h2>
-                    <p> Made substantial improvements to key sections of the website using HTML5, optimizing usability
-                        and performance.
-                        Supervised the operation and connection of Discord bots to our database in MongoDB.
-                        Led the content update initiative, where attention to detail generated a clearer idea about the
-                        project.
-                        Implemented collaborative practices on GitHub, resulting in greater transparency and
-                        productivity. </p>
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card" data-destino="CulD - The Cult DAO">
+                            <a href="https://culd.org/" target="_blank">
+                                <img src="img/CulDPreview.JPG" class="card-img-top" alt="CulD - The Cult DAO">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">CulD - The Cult DAO</h5>
+                                <p class="card-text">Made substantial improvements to key sections of the website using
+                                    HTML5, optimizing usability
+                                    and performance.</p>
+                                <a href="#" class="btn btn-primary ver-mas">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card" data-destino="Agencia IA">
+                            <a href="https://agenciaiachile.com/" target="_blank">
+                                <img src="img/AIAPreview.JPG" class="card-img-top" alt="Agencia IA">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Agencia IA</h5>
+                                <p class="card-text">Intro.</p>
+                                <a href="#" class="btn btn-primary ver-mas">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card" data-destino="AeroVia Express">
+                            <img src="img/" class="card-img-top" alt="AeroVia Express">
+                            <div class="card-body">
+                                <h5 class="card-title">AeroVia Express</h5>
+                                <p class="card-text">Intro.</p>
+                                <a href="#" class="btn btn-primary ver-mas">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <img src="img/proyecto2.jpg" alt="Proyecto 2" class="img-fluid">
-                    <h2>Proyecto 2</h2>
-                    <p>Descripción del proyecto 2</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="img/proyecto3.jpg" alt="Proyecto 3" class="img-fluid">
-                    <h2>Proyecto 3</h2>
-                    <p>Descripción del proyecto 3</p>
-                </div>
+            </div>
+
+            <div id="info-recuadro" class="recuadro-oculto">
+                <button id="cerrar-recuadro" class="btn btn-danger">X</button>
+                <div id="info-contenido"></div>
             </div>
         </section>
         <section></section>
@@ -98,6 +121,7 @@
             observer.observe(heading);
         });
     </script>
+    <script src="script.js"></script>
 </body>
 
 <footer class="bg-dark text-center text-white">
