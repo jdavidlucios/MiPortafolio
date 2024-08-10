@@ -25,46 +25,37 @@
     </header>
 
     <div class="container mt-5">
-        <h2 class="text-center mb-4">Formulario</h2>
+        <h2 class="text mb-4">Formulario de Contacto</h2>
         <form>
             <div class="form-row">
                 <div class="form-group col-md-4">
                     <label for="nombre">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre completo">
                 </div>
                 <div class="form-group col-md-4">
-                    <label for="apellido">Apellido</label>
-                    <input type="text" class="form-control" id="apellido" placeholder="Apellido">
-                </div>
-                <div class="form-group col-md-4">
-                    <label for="usuario">Nombre de usuario</label>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">@</span>
-                        </div>
-                        <input type="text" class="form-control" id="usuario" placeholder="Nombre de usuario">
-                    </div>
+                    <label for="apellido">Mail</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="sumail@proveedor">
                 </div>
             </div>
+            <div class="form-group col-md-13">
+                <label for="motivo">Motivo</label>
+                <select class="form-control" id="motivo">
+                    <option value="deposito">Consulta General</option>
+                    <option value="giro">Cotización</option>
+                    <option value="consulta">Proyecto en Curso</option>
+                </select>
+            </div>
             <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="ciudad">Ciudad</label>
-                    <input type="text" class="form-control" id="ciudad" placeholder="Ciudad">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="motivo">Motivo</label>
-                    <select class="form-control" id="motivo">
-                        <option value="deposito">Deposito</option>
-                        <option value="giro">Giro</option>
-                        <option value="consulta">Consulta de Saldo</option>
-                    </select>
+                <div class="form-group col-md-8">
+                    <label for="ciudad">Mensaje</label>
+                    <textarea class="form-control" id="ciudad" placeholder="Escriba su mensaje"></textarea>
                 </div>
             </div>
             <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="pantalla">
-                <label class="form-check-label" for="pantalla">¿Desea ver la respuesta en pantalla?</label>
+                <label class="form-check-label" for="pantalla">Autorizo a que me contacten al mail proporcionado</label>
             </div>
-            <button type="submit" class="btn btn-primary mt-3">Solicitar</button>
+            <button type="submit" class="btn btn-primary mt-3">Enviar</button>
         </form>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
