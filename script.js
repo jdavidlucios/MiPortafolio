@@ -5,15 +5,15 @@ $(document).ready(function () {
             "titulo": "CulD - The Cult DAO",
             "descripcion": "Supervised the operation and connection of Discord bots to our database in MongoDB. Led the content update initiative, where attention to detail generated a clearer idea about theproject. Implemented collaborative practices on GitHub, resulting in greater transparency and productivity. "
         },
-        "Machu Picchu": {
-            "img": "img/machu pichu.jpg",
-            "titulo": "Machu Picchu",
-            "descripcion": "Explora las majestuosas ruinas incas de Machu Picchu en Perú. Este sitio histórico ofrece vistas impresionantes y una experiencia inolvidable para los aventureros."
+        "Agencia IA": {
+            "img": "img/AIAPreview.JPG",
+            "titulo": "Agencia IA",
+            "descripcion": "Freelance project currently under development."
         },
-        "Río de Janeiro": {
-            "img": "img/Rio de janeiro.jpg",
-            "titulo": "Río de Janeiro",
-            "descripcion": "Disfruta de las playas soleadas, el vibrante carnaval y la icónica estatua del Cristo Redentor en Río de Janeiro, Brasil. La ciudad ofrece una mezcla única de cultura y naturaleza."
+        "AeroVia Express": {
+            "img": "img/AVPreview.JPG",
+            "titulo": "AeroVia Express",
+            "descripcion": "Bootcamp Front Exercise."
         }
     };
 
