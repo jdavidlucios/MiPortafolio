@@ -3,7 +3,7 @@ $(document).ready(function () {
         "CulD - The Cult DAO": {
             "img": "img/CulDPreview.JPG",
             "titulo": "CulD - The Cult DAO",
-            "descripcion": "Supervised the operation and connection of Discord bots to our database in MongoDB. Led the content update initiative, where attention to detail generated a clearer idea about theproject. Implemented collaborative practices on GitHub, resulting in greater transparency and productivity. "
+            "descripcion": "Supervised the operation and connection of Discord bots to our database in MongoDB. Led the content update initiative, where attention to detail generated a clearer idea about the project. Implemented collaborative practices on GitHub, resulting in greater transparency and productivity. "
         },
         "Agencia IA": {
             "img": "img/AIAPreview.JPG",
